@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-
-
 .container {
     box-sizing: border-box;
     width: 100%;
@@ -9,15 +6,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    font-family: "Montserrat", sans-serif;
     font-weight: 1000;
     background: center / cover no-repeat url("../image/oi.jpg");
 }
 
-.container spam{
+.container span{
     font-size: 32px;
-    color: #000;
+    color:#000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
 }
 
 .botoes{
@@ -32,8 +29,7 @@
 .btn{
     width: 140px;
     height: 50px;
-    background: linear-gradient(to top, #fd052e53, #fd052e75, #fd052f);
-    color: #fff;
+    background: red;
     border-radius: 50px;
     border: none;
     outline: none;
@@ -41,6 +37,7 @@
     position: relative;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
     overflow: hidden;
+    
 }
 
 .btn span {
@@ -48,4 +45,5 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: top 0.5s;
+    color: #fff;
   }
