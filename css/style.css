@@ -7,12 +7,12 @@
     align-items: center;
     justify-content: center;
     font-weight: 1000;
-    background: center / cover no-repeat url("../image/oi.jpg");
+    background: center / cover no-repeat url("../image/img-desktop.jpg");
 }
 
 .container span{
-    font-size: 32px;
-    color:#000;
+    font-size: 5vh;
+    color:#fff;
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
 }
@@ -47,3 +47,10 @@
     transition: top 0.5s;
     color: #fff;
   }
+
+
+  @media (max-width: 768px) {
+    .container {
+        background-image: url("../image/img-cell2.jpg");
+    }
+}
